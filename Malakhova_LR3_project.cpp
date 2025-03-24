@@ -3,7 +3,9 @@
 using namespace std;
 
 // Функция для ввода натурального числа
-void inputNaturalNumber(long long &number) {
+void inputNaturalNumber(unsigned long long &number) {
+    cout << "Введите натуральное число X: ";
+    cin >> number;
 }
 
 // Функция для ввода цифры
